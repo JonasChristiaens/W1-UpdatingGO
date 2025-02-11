@@ -13,7 +13,7 @@ namespace dae
 	{
 	public:
 		void Update() override;
-		void Render(GameObject& gameObject) const override;
+		//void Render(GameObject& gameObject) const override;
 
 		void SetText(const std::string& text);
 		void SetPosition(float x, float y);
